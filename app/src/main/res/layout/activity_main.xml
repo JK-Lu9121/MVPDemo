@@ -46,4 +46,22 @@
         android:text="MVP Activity2"
         android:textAllCaps="false"/>
 
+    <Button
+        android:id="@+id/btn_mvp3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="50dp"
+        android:layout_marginRight="50dp"
+        android:text="MVP Activity3"
+        android:textAllCaps="false"/>
+
+    <TextView
+        android:id="@+id/tv_tips"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="MVP Activity1 Activity2 Activity3 是一样的，练习多写了几次加深印象而已。"
+        android:layout_margin="5dp"
+        android:textSize="14sp"/>
+
 </LinearLayout>
