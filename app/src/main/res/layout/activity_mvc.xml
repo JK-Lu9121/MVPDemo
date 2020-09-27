@@ -4,36 +4,26 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    tools:context=".mvc.MVCActivity"
     android:orientation="vertical"
-    android:gravity="center_horizontal"
-    tools:context=".MainActivity">
+    android:gravity="center_horizontal">
 
     <TextView
         android:id="@+id/tv_title"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="This is a MVP Demo"
+        android:text="This is a MVC Activity"
         android:layout_marginTop="20dp"
         android:textSize="22sp"/>
 
     <Button
-        android:id="@+id/btn_mvc"
+        android:id="@+id/btn_request"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginTop="20dp"
         android:layout_marginLeft="50dp"
         android:layout_marginRight="50dp"
-        android:text="MVC Activity"
-        android:textAllCaps="false"/>
-
-    <Button
-        android:id="@+id/btn_mvp"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="10dp"
-        android:layout_marginLeft="50dp"
-        android:layout_marginRight="50dp"
-        android:text="MVP Activity1"
+        android:text="Data Request"
         android:textAllCaps="false"/>
 
 </LinearLayout>
