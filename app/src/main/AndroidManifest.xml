@@ -11,7 +11,9 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.AppCompat.Light.NoActionBar">
-        <activity android:name=".mvp.view.MVP5Activity"></activity>
+        <activity android:name=".mvp2.ui.MVP6Activity"></activity>
+        <activity android:name=".mvp2.ui.MVP0Activity" />
+        <activity android:name=".mvp.view.MVP5Activity" />
         <activity android:name=".mvp.view.MVP3Activity" />
         <activity android:name=".mvp.view.MVP2Activity" />
         <activity android:name=".mvp.view.MVP1Activity" />

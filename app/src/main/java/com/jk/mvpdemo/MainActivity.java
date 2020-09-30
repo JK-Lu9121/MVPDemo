@@ -15,6 +15,8 @@ import com.jk.mvpdemo.mvp.view.MVP1Activity;
 import com.jk.mvpdemo.mvp.view.MVP2Activity;
 import com.jk.mvpdemo.mvp.view.MVP3Activity;
 import com.jk.mvpdemo.mvp.view.MVP5Activity;
+import com.jk.mvpdemo.mvp2.ui.MVP0Activity;
+import com.jk.mvpdemo.mvp2.ui.MVP6Activity;
 
 import butterknife.BindView;
 import butterknife.ButterKnife;
@@ -33,6 +35,10 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
     Button btnMvp3;
     @BindView(R.id.btn_mvp5)
     Button btnMvp5;
+    @BindView(R.id.btn_mvp0)
+    Button btnMvp0;
+    @BindView(R.id.btn_mvp6)
+    Button btnMvp6;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -46,6 +52,8 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         btnMvp2.setOnClickListener(this);
         btnMvp3.setOnClickListener(this);
         btnMvp5.setOnClickListener(this);
+        btnMvp0.setOnClickListener(this);
+        btnMvp6.setOnClickListener(this);
 
     }
 
@@ -59,6 +67,9 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
             case R.id.btn_mvc:
                 startActivity(new Intent(MainActivity.this, MVCActivity.class));
                 break;
+            case R.id.btn_mvp0:
+                startActivity(new Intent(MainActivity.this, MVP0Activity.class));
+                break;
             case R.id.btn_mvp:
                 startActivity(new Intent(MainActivity.this, MVP1Activity.class));
                 break;
@@ -70,6 +81,9 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
                 break;
             case R.id.btn_mvp5:
                 startActivity(new Intent(MainActivity.this, MVP5Activity.class));
+                break;
+            case R.id.btn_mvp6:
+                startActivity(new Intent(MainActivity.this, MVP6Activity.class));
                 break;
             default:
                 break;
