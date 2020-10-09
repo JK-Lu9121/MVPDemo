@@ -21,6 +21,7 @@ import com.jk.mvpdemo.mvp2.ui.MVP6Activity;
 import com.jk.mvpdemo.mvp3.ui.MVP7Activity;
 import com.jk.mvpdemo.mvp4.ui.MVP8Activity;
 import com.jk.mvpdemo.mvp4.ui.MVP9Activity;
+import com.jk.mvpdemo.mvp5.MVP10Activity;
 
 import butterknife.BindView;
 import butterknife.ButterKnife;
@@ -51,6 +52,8 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
     Button btnMvp8;
     @BindView(R.id.btn_mvp9)
     Button btnMvp9;
+    @BindView(R.id.btn_mvp10)
+    Button btnMvp10;
 
 
     @Override
@@ -71,6 +74,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         btnMvp7.setOnClickListener(this);
         btnMvp8.setOnClickListener(this);
         btnMvp9.setOnClickListener(this);
+        btnMvp10.setOnClickListener(this);
 
     }
 
@@ -113,6 +117,9 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
                 break;
             case R.id.btn_mvp9:
                 startActivity(new Intent(MainActivity.this, MVP9Activity.class));
+                break;
+            case R.id.btn_mvp10:
+                startActivity(new Intent(MainActivity.this, MVP10Activity.class));
                 break;
             default:
                 break;

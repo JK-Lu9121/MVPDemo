@@ -43,7 +43,8 @@
                 android:layout_marginLeft="50dp"
                 android:layout_marginRight="50dp"
                 android:text="MVP Activity0"
-                android:textAllCaps="false"/>
+                android:textAllCaps="false"
+                android:visibility="gone"/>
 
             <Button
                 android:id="@+id/btn_mvp"
@@ -53,7 +54,8 @@
                 android:layout_marginLeft="50dp"
                 android:layout_marginRight="50dp"
                 android:text="MVP Activity1"
-                android:textAllCaps="false"/>
+                android:textAllCaps="false"
+                android:visibility="gone"/>
 
             <Button
                 android:id="@+id/btn_mvp2"
@@ -63,7 +65,8 @@
                 android:layout_marginLeft="50dp"
                 android:layout_marginRight="50dp"
                 android:text="MVP Activity2"
-                android:textAllCaps="false"/>
+                android:textAllCaps="false"
+                android:visibility="gone"/>
 
             <Button
                 android:id="@+id/btn_mvp3"
@@ -83,10 +86,10 @@
                 android:layout_marginLeft="50dp"
                 android:layout_marginRight="50dp"
                 android:text="MVP Activity4"
-                android:textAllCaps="false"/>
+                android:textAllCaps="false"
+                android:visibility="gone"/>
 
             <TextView
-                android:id="@+id/tv_tips"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="MVP Activity0 Activity1 Activity2 Activity3 Activity4是一样的，练习多写了几次加深印象而已。"
@@ -101,7 +104,8 @@
                 android:layout_marginLeft="50dp"
                 android:layout_marginRight="50dp"
                 android:text="MVP Activity5"
-                android:textAllCaps="false"/>
+                android:textAllCaps="false"
+                android:visibility="gone"/>
 
             <Button
                 android:id="@+id/btn_mvp6"
@@ -111,7 +115,8 @@
                 android:layout_marginLeft="50dp"
                 android:layout_marginRight="50dp"
                 android:text="MVP Activity6"
-                android:textAllCaps="false"/>
+                android:textAllCaps="false"
+                android:visibility="gone"/>
 
             <Button
                 android:id="@+id/btn_mvp7"
@@ -121,7 +126,8 @@
                 android:layout_marginLeft="50dp"
                 android:layout_marginRight="50dp"
                 android:text="MVP Activity7"
-                android:textAllCaps="false"/>
+                android:textAllCaps="false"
+                android:visibility="gone"/>
 
             <Button
                 android:id="@+id/btn_mvp8"
@@ -131,7 +137,8 @@
                 android:layout_marginLeft="50dp"
                 android:layout_marginRight="50dp"
                 android:text="MVP Activity8"
-                android:textAllCaps="false"/>
+                android:textAllCaps="false"
+                android:visibility="gone"/>
 
             <Button
                 android:id="@+id/btn_mvp9"
@@ -141,10 +148,20 @@
                 android:layout_marginLeft="50dp"
                 android:layout_marginRight="50dp"
                 android:text="MVP Activity9"
+                android:textAllCaps="false"
+                android:visibility="gone"/>
+
+            <Button
+                android:id="@+id/btn_mvp10"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="50dp"
+                android:layout_marginRight="50dp"
+                android:text="MVP Activity10"
                 android:textAllCaps="false"/>
 
             <TextView
-                android:id="@+id/tv_tips2"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="MVP Activity5 Activity6 Activity7是一样的，练习多写了几次加深印象而已。"
